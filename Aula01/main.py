@@ -31,3 +31,5 @@ if ( f == "M" or f =="F"):
     print ("Pode passar")
 else:
     print ("Sexo inserido inválido")
+
+print ("Teste")
