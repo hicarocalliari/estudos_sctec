@@ -52,3 +52,20 @@ print (nome.lstrip().rstrip())
 numero_pedido = "4521"
 
 print (numero_pedido.zfill(8))
+
+### 10
+
+linha = "notebook;Dell;i7;16GB;512GB SSD"
+
+campos = linha.split(";")
+
+for campo in campos:
+    print (campo)
+
+### 11
+
+tags = ["urgente", "rede", "servidor", "producao"]
+
+new_tag = " | ".join(tags)
+
+print (new_tag)
